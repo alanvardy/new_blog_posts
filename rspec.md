@@ -7,9 +7,10 @@
 - `bundle install`
 - `rspec --init`
 - `mkdir lib`
+- ruby code goes in the lib folder (lib/example.rb)
+- tests (specs) go in the spec folder (spec/example_spec.rb)
 
-ruby code goes in the lib folder (lib/example.rb)
-tests (specs) go in the spec folder (spec/example_spec.rb)
+## Example RSpec Code
 
 ```Ruby
 require "example"
