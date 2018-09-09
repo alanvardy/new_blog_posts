@@ -14,7 +14,7 @@ require "example"
 
 describe 'ClassName' do
 it 'does something cool' do
-expect(ClassName.something).to eql('cool')
+expect(ClassName.something).to eq('cool')
 end
 end
 ```
