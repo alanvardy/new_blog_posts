@@ -13,9 +13,9 @@ tests (specs) go in the spec folder (spec/example_spec.rb)
 require "example"
 
 describe 'ClassName' do
-it 'does something cool' do
-expect(ClassName.something).to eq('cool')
-end
+  it 'does something cool' do
+    expect(ClassName.something).to eq('cool')
+  end
 end
 ```
 
