@@ -1,10 +1,12 @@
 # Quick and Nasty RSpec
 
-`bundle init`
-add gem "rspec" to Gemfile
-`bundle install`
-`rspec --init`
-`mkdir lib`
+## Initial Setup
+
+- `bundle init`
+- add gem "rspec" to Gemfile
+- `bundle install`
+- `rspec --init`
+- `mkdir lib`
 
 ruby code goes in the lib folder (lib/example.rb)
 tests (specs) go in the spec folder (spec/example_spec.rb)
@@ -28,3 +30,6 @@ RSpec Hierarchy
       - example         it
         - expectations  expect().to()
 ```
+
+You can just write out `it "string"` and it will be pending
+you can also use `xit` at the beginning to skip
