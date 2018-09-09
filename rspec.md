@@ -1,6 +1,6 @@
 # Quick and Nasty RSpec
 
-## Initial Setup
+### Initial Setup
 
 - `bundle init`
 - add gem "rspec" to Gemfile
@@ -10,7 +10,7 @@
 - ruby code goes in the lib folder (lib/example.rb)
 - tests (specs) go in the spec folder (spec/example_spec.rb)
 
-## Example RSpec Code
+### Example RSpec Code
 
 ```Ruby
 require "example"
@@ -22,7 +22,7 @@ describe 'ClassName' do
 end
 ```
 
-RSpec Hierarchy
+### RSpec Hierarchy
 
 ```Ruby
 - spec file             example_spec.rb
