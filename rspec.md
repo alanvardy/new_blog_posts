@@ -1,4 +1,4 @@
-#Quick and Nasty RSpec
+# Quick and Nasty RSpec
 
 `bundle init`
 add gem "rspec" to Gemfile
