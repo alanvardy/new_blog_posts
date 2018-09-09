@@ -12,6 +12,8 @@ Take the Lynda course: Ruby:Testing with RSpec
 - ruby code goes in the lib folder (lib/example.rb)
 - tests (specs) go in the spec folder (spec/example_spec.rb)
 
+- run with `bundle exec rspec`
+
 ### Example RSpec Code
 
 ```Ruby
