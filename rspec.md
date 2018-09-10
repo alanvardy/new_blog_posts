@@ -20,8 +20,10 @@ Take the Lynda course: Ruby:Testing with RSpec
 require "example"
 
 describe 'ClassName' do
-  it 'does something cool' do
-    expect(ClassName.method).to eq('something cool')
+  context 'in this part of the program' do
+    it 'does something cool' do
+      expect(ClassName.method).to eq('something cool')
+    end
   end
 end
 ```
