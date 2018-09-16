@@ -43,3 +43,17 @@ You can just write out `it "string"` and it will be pending
 you can also use `xit` or `xdescribe` at the beginning to skip
 
 [RSpec Cheatsheet](http://www.anchor.com.au/wp-content/uploads/rspec_cheatsheet_attributed.pdf)
+
+## How to get rid of puts and print while testing
+
+Add at start of code:
+
+```Ruby
+before do
+  allow($stdout).to receive(:write)
+end
+```
+
+## How to automatically create variable
+
+'let(:game) {game ||= Game.new}'
