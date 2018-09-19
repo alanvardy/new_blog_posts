@@ -57,3 +57,11 @@ end
 ## How to automatically create variable
 
 'let(:game) {game ||= Game.new}'
+
+## How to set and get instance variables
+
+```Ruby
+classname.instance_variable_set(:@x, 5)
+classname.instance_variable_get(:@x)
+#=> 5
+```
